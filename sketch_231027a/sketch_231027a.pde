@@ -106,11 +106,11 @@ void draw() {
   line( mouthX1, mouthY1, mouthX2, mouthY2 ); //mouth
   strokeWeight(mouthReset); //1=reset
   // 
-  color measleColor = color( 193, random(0,87), random(0, 201) );
+  color measleColor = color( 107, random(0,37), random(0, 113) );
   fill( measleColor );
-   measleDiameter = random( smallerDimension*1/50, smallerDimension*1/30 );
+   measleDiameter = random( smallerDimension*1/30, smallerDimension*1/10 );
 
-  measleDiameter = random( smallerDimension*1/50, smallerDimension*1/30 );
+  measleDiameter = random( smallerDimension*1/30, smallerDimension*1/10 );
   measleX = random( backgroundX+(measleDiameter/2), (backgroundX+backgroundWidth)-(measleDiameter/2) );
   measleY = random( backgroundY+(measleDiameter/2), (backgroundY+backgroundHeight)-(measleDiameter/2) );
   println( "Start", measleX, measleY, measleDiameter );

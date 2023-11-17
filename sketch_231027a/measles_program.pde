@@ -40,9 +40,9 @@ void mealsesProgram() {
   // 
   color measleColor = color( 107, random(0,37), random(0, 113) );
   fill( measleColor );
-   measleDiameter = random( smallerDimension*1/40, smallerDimension*1/10 );
+   measleDiameter = random( smallerDimension*1/30, smallerDimension*1/10 );
 
-  measleDiameter = random( smallerDimension*1/40, smallerDimension*1/10 );
+  measleDiameter = random( smallerDimension*1/30, smallerDimension*1/10 );
   measleX = random( backgroundX+(measleDiameter/2), (backgroundX+backgroundWidth)-(measleDiameter/2) );
   measleY = random( backgroundY+(measleDiameter/2), (backgroundY+backgroundHeight)-(measleDiameter/2) );
   println( "Start", measleX, measleY, measleDiameter );
